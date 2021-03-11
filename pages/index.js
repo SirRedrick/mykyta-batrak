@@ -11,7 +11,7 @@ export default function Home() {
 
 			<main className={styles.main}>
 				<h1 className={styles.title}>
-					Привіт, я <a href="https://nextjs.org">Микита</a>
+					Привіт, я <span>Микита</span>
 				</h1>
 
 				<p className={styles.description}>
@@ -19,16 +19,16 @@ export default function Home() {
 					професіоналом у цій галузі.
 				</p>
 
-				<div className={styles.grid}>
-					<a href="https://nextjs.org/docs" className={styles.card}>
+				<div className={styles.cards}>
+					<a className={styles.card}>
 						<h2>Про мене</h2>
 					</a>
 
-					<a href="https://nextjs.org/learn" className={styles.card}>
+					<a className={styles.card}>
 						<h2>Портфоліо</h2>
 					</a>
 
-					<a href="https://github.com/vercel/next.js/tree/master/examples" className={styles.card}>
+					<a className={styles.card}>
 						<h2>Контакти</h2>
 					</a>
 				</div>
